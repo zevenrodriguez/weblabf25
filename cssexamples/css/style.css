@@ -1,7 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     background-color: sienna;
     background-color: rgba(0,255,0, 1.0); /* rgb 0 - 255 */
     background-color: #999999;
     
     /* write a comment in css*/
+}
+
+header{
+    width: 960px;
+    background-color: red;
+    height: auto;
+    padding: 20px;
+    border: 5px solid orange;
+    margin-top: -7px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main{
+    width: 960px;
+    background-color: blue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 5px dotted green;
+    border-right: 5px dotted green;
+    margin: 0px auto; /* top and bottom to 0 px left and right to auto */
+
+    
+}
+
+footer{
+    width: 960px;
+    height: 50px;
+    background-color: green;
+    padding: 20px;
+    border-left: 5px dashed rgb(11, 20, 136);
+    border-right: 5px dashed  rgb(11, 20, 136);
+    margin: 0px auto;
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 100;
+    font-style: italic;
+
+}
+h2{
+    font-family: cursive;
+    text-transform: capitalize;
+}
+
+ul{
+    list-style: square;
+}
+
+ul li{
+    color: blue;    
+}
+
+li{
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color: pink;
+}
+
+img{
+    width: 300px;
+    /* height: 100px; */
+    /* use width or height when setting img sizes */
+}
+
+.imageGallery{
+    width: 200px;
+}
+
+.green{
+    color: green;
+}
+
+.greyBackground{
+    background-color: rgba(255, 189, 189, 0.5);
+}
+
+
+nav{
+    width: 400px;
+    margin: 0px auto;
+    border-bottom: black 1px solid;
+}
+
+nav ul{
+
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    text-decoration: none;
+
+}
+
+nav ul li a{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: black; 
+}
+
+nav ul li a:hover{
+    background-color: aliceblue;
 }
